@@ -11,5 +11,5 @@ class TestCustomer(unittest.TestCase):
         self.assertEqual("Stuart", self.customer1.name)
 
     def test_customer_reduce_cash(self):
-        self.customer1.reduce_cash(-6)
+        self.customer1.reduce_cash(6)
         self.assertEqual(44, self.customer1.cash)

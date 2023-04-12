@@ -4,4 +4,11 @@ class Pub:
         self.till = till
         self.customers = [ ]
 
-    def 
+    def increase_cash(self, cash_amount):
+        self.till += cash_amount
+
+    def decrease_cash(self, cash_amount):
+        self.till -= cash_amount
+
+    # def sell_drink(self, customer, drink):
+        
